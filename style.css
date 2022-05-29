@@ -1,4 +1,4 @@
-/* Body part */
+/* navbar start */
 
 header{
     
@@ -30,3 +30,79 @@ li a:hover:not(.active){
 .active{
     background-color: #04aa6d;
 }
+/* navbar end */
+.conrainer{
+    width: 100%;
+    margin: 20px 0;
+    padding: 5px;
+    
+    
+    
+}
+.sidebar{
+    width:20%;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.box {
+    width:98%;
+    height: 400px;
+    margin:10px;
+    padding: 5px;
+    background-color: lightgray;
+
+}
+.card{
+    
+    width:20%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+     
+    
+}
+.company{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(177, 144, 238);
+    border: 2px solid red;
+    padding: 10px;
+    color: white;
+}
+.process{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    color: blue;
+}
+.process>p{
+    color: black;
+}
+footer{
+    background-color: lightgreen;
+    padding: 10px;
+
+}
+a.link{
+    background-color:yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+.info{
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+}
+.tel{
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    margin:0;
+}
+
+
+
+
