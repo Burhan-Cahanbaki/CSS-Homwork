@@ -1,0 +1,60 @@
+/* navbar start */
+
+header{
+    
+    color: green;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: #04aa6d;
+}
+/* navbar end */
+/*Body Start*/
+.head{
+    color: blue;
+    font-weight: bold;
+    background-color:lightgray;
+    border: 1px solid green;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin:5px;
+    float: left;
+  }
+  img{
+      width: 40%;
+      height: 300px;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    
+  }
+/*Body End*/

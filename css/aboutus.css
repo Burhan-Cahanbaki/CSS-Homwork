@@ -1,0 +1,106 @@
+/* navbar start */
+
+header{
+    
+    color: green;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: #04aa6d;
+}
+/*Navbar end*/
+/*Body Start*/
+.container{
+    width: 100%;
+    margin: 10px;
+    padding:5px;
+
+}
+.side-bar{
+    width: 20%;
+    margin:0;
+    padding: 5px;
+    float: left;
+    border:1px solid blue;
+    height: 400px;
+    background-color:lightgray;
+}
+.box{
+    width: 98%;
+    margin: 10;
+    padding: 5px;
+    border: 1px solid red;
+    height: 400px;
+    background-color: lightgreen;
+}
+.card{
+    width:20%;
+    float: left;
+    margin:5px;
+    padding: 5px;
+
+}
+/*Body End*/
+
+
+.company{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(177, 144, 238);
+    border: 2px solid red;
+    padding: 10px;
+    color: white;
+}
+.process{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    color: blue;
+}
+.process>p{
+    color: black;
+}
+/*Footer Start*/
+footer{
+    background-color: lightgreen;
+    padding: 10px;
+
+}
+a.link{
+    background-color:yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+.info{
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+}
+.tel{
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    margin:0;
+}
+/*Footer end*/
