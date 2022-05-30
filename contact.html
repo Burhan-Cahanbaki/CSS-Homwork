@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <!--navbar start-->
+    <header>
+        <h1>Altay Grape Farm</h1>
+    </header>
+    <div>
+        <nav>
+            <ul>
+                <li ><a href="index.html" class="active">Home Page</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li style="float:right;"><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--navbar end-->
+     <!--Body Start-->
+    <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Name and Surname</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Mail Address</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your mail..">
+    <label for="lname">Tel Number </label>
+    <input type="text" id="lname" name="lastname" placeholder="Your telephon number..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Turkey</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<!--Body End-->
+
+<!--Footer start-->
+<footer>
+    <h2 >Contact US</h2>
+    <p class="info">If you Interested to Collaborate with us Press the <a class="link" href="contact.html"> Contact Link</a> to go Contact page or call us Contact number bleow </p>
+    <p class="tel">info@altaygrup.com.tr</p>
+    <p class="tel">+90 0 546 403 21 11</p>
+</footer>
+<!--Footer End-->
+
 </body>
 </html>
